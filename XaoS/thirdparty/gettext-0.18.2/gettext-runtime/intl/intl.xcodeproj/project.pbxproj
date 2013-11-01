@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C9EA01A5174DBF0900488A2C /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		C9EA01A6174DBF0900488A2C /* .libs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .libs; sourceTree = "<group>"; };
+		C9EA01A7174DBF0900488A2C /* bindtextdom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bindtextdom.c; sourceTree = "<group>"; };
+		C9EA01A8174DBF0900488A2C /* bindtextdom.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = bindtextdom.lo; sourceTree = "<group>"; };
+		C9EA01A9174DBF0900488A2C /* bindtextdom.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = bindtextdom.o; sourceTree = "<group>"; };
+		C9EA01AA174DBF0900488A2C /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		C9EA01AB174DBF0900488A2C /* charset.alias */ = {isa = PBXFileReference; lastKnownFileType = text; path = charset.alias; sourceTree = "<group>"; };
+		C9EA01AC174DBF0900488A2C /* config.charset */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.charset; sourceTree = "<group>"; };
+		C9EA01AD174DBF0900488A2C /* COPYING.LIB */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING.LIB; sourceTree = "<group>"; };
+		C9EA01AE174DBF0900488A2C /* dcgettext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dcgettext.c; sourceTree = "<group>"; };
+		C9EA01AF174DBF0900488A2C /* dcgettext.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dcgettext.lo; sourceTree = "<group>"; };
+		C9EA01B0174DBF0900488A2C /* dcgettext.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dcgettext.o; sourceTree = "<group>"; };
+		C9EA01B1174DBF0900488A2C /* dcigettext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dcigettext.c; sourceTree = "<group>"; };
+		C9EA01B2174DBF0900488A2C /* dcigettext.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dcigettext.lo; sourceTree = "<group>"; };
+		C9EA01B3174DBF0900488A2C /* dcigettext.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dcigettext.o; sourceTree = "<group>"; };
+		C9EA01B4174DBF0900488A2C /* dcngettext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dcngettext.c; sourceTree = "<group>"; };
+		C9EA01B5174DBF0900488A2C /* dcngettext.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dcngettext.lo; sourceTree = "<group>"; };
+		C9EA01B6174DBF0900488A2C /* dcngettext.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dcngettext.o; sourceTree = "<group>"; };
+		C9EA01B7174DBF0900488A2C /* dgettext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dgettext.c; sourceTree = "<group>"; };
+		C9EA01B8174DBF0900488A2C /* dgettext.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dgettext.lo; sourceTree = "<group>"; };
+		C9EA01B9174DBF0900488A2C /* dgettext.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dgettext.o; sourceTree = "<group>"; };
+		C9EA01BA174DBF0900488A2C /* dngettext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dngettext.c; sourceTree = "<group>"; };
+		C9EA01BB174DBF0900488A2C /* dngettext.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = dngettext.lo; sourceTree = "<group>"; };
+		C9EA01BC174DBF0900488A2C /* dngettext.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dngettext.o; sourceTree = "<group>"; };
+		C9EA01BD174DBF0900488A2C /* eval-plural.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eval-plural.h"; sourceTree = "<group>"; };
+		C9EA01BE174DBF0900488A2C /* explodename.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = explodename.c; sourceTree = "<group>"; };
+		C9EA01BF174DBF0900488A2C /* explodename.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = explodename.lo; sourceTree = "<group>"; };
+		C9EA01C0174DBF0900488A2C /* explodename.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = explodename.o; sourceTree = "<group>"; };
+		C9EA01C1174DBF0900488A2C /* export.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = export.h; sourceTree = "<group>"; };
+		C9EA01C2174DBF0900488A2C /* finddomain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = finddomain.c; sourceTree = "<group>"; };
+		C9EA01C3174DBF0900488A2C /* finddomain.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = finddomain.lo; sourceTree = "<group>"; };
+		C9EA01C4174DBF0900488A2C /* finddomain.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = finddomain.o; sourceTree = "<group>"; };
+		C9EA01C5174DBF0900488A2C /* gettext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gettext.c; sourceTree = "<group>"; };
+		C9EA01C6174DBF0900488A2C /* gettext.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = gettext.lo; sourceTree = "<group>"; };
+		C9EA01C7174DBF0900488A2C /* gettext.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = gettext.o; sourceTree = "<group>"; };
+		C9EA01C8174DBF0900488A2C /* gettextP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gettextP.h; sourceTree = "<group>"; };
+		C9EA01C9174DBF0900488A2C /* gmo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gmo.h; sourceTree = "<group>"; };
+		C9EA01CA174DBF0900488A2C /* hash-string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "hash-string.c"; sourceTree = "<group>"; };
+		C9EA01CB174DBF0900488A2C /* hash-string.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hash-string.h"; sourceTree = "<group>"; };
+		C9EA01CC174DBF0900488A2C /* hash-string.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hash-string.lo"; sourceTree = "<group>"; };
+		C9EA01CD174DBF0900488A2C /* hash-string.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "hash-string.o"; sourceTree = "<group>"; };
+		C9EA01CE174DBF0900488A2C /* intl-compat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "intl-compat.c"; sourceTree = "<group>"; };
+		C9EA01CF174DBF0900488A2C /* intl-compat.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = "intl-compat.lo"; sourceTree = "<group>"; };
+		C9EA01D0174DBF0900488A2C /* intl-compat.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "intl-compat.o"; sourceTree = "<group>"; };
+		C9EA01D1174DBF0900488A2C /* intl-exports.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "intl-exports.c"; sourceTree = "<group>"; };
+		C9EA01D2174DBF0900488A2C /* l10nflist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = l10nflist.c; sourceTree = "<group>"; };
+		C9EA01D3174DBF0900488A2C /* l10nflist.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = l10nflist.lo; sourceTree = "<group>"; };
+		C9EA01D4174DBF0900488A2C /* l10nflist.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = l10nflist.o; sourceTree = "<group>"; };
+		C9EA01D5174DBF0900488A2C /* langprefs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = langprefs.c; sourceTree = "<group>"; };
+		C9EA01D6174DBF0900488A2C /* langprefs.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = langprefs.lo; sourceTree = "<group>"; };
+		C9EA01D7174DBF0900488A2C /* langprefs.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = langprefs.o; sourceTree = "<group>"; };
+		C9EA01D8174DBF0900488A2C /* libgnuintl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libgnuintl.h; sourceTree = "<group>"; };
+		C9EA01D9174DBF0900488A2C /* libgnuintl.in.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libgnuintl.in.h; sourceTree = "<group>"; };
+		C9EA01DA174DBF0900488A2C /* libintl.glibc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libintl.glibc; sourceTree = "<group>"; };
+		C9EA01DB174DBF0900488A2C /* libintl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libintl.h; sourceTree = "<group>"; };
+		C9EA01DC174DBF0900488A2C /* libintl.la */ = {isa = PBXFileReference; lastKnownFileType = text; path = libintl.la; sourceTree = "<group>"; };
+		C9EA01DD174DBF0900488A2C /* libintl.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libintl.rc; sourceTree = "<group>"; };
+		C9EA01DE174DBF0900488A2C /* loadinfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loadinfo.h; sourceTree = "<group>"; };
+		C9EA01DF174DBF0900488A2C /* loadmsgcat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = loadmsgcat.c; sourceTree = "<group>"; };
+		C9EA01E0174DBF0900488A2C /* loadmsgcat.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = loadmsgcat.lo; sourceTree = "<group>"; };
+		C9EA01E1174DBF0900488A2C /* loadmsgcat.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = loadmsgcat.o; sourceTree = "<group>"; };
+		C9EA01E2174DBF0900488A2C /* localcharset.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = localcharset.c; sourceTree = "<group>"; };
+		C9EA01E3174DBF0900488A2C /* localcharset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = localcharset.h; sourceTree = "<group>"; };
+		C9EA01E4174DBF0900488A2C /* localcharset.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = localcharset.lo; sourceTree = "<group>"; };
+		C9EA01E5174DBF0900488A2C /* localcharset.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = localcharset.o; sourceTree = "<group>"; };
+		C9EA01E6174DBF0900488A2C /* locale.alias */ = {isa = PBXFileReference; lastKnownFileType = text; path = locale.alias; sourceTree = "<group>"; };
+		C9EA01E7174DBF0900488A2C /* localealias.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = localealias.c; sourceTree = "<group>"; };
+		C9EA01E8174DBF0900488A2C /* localealias.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = localealias.lo; sourceTree = "<group>"; };
+		C9EA01E9174DBF0900488A2C /* localealias.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = localealias.o; sourceTree = "<group>"; };
+		C9EA01EA174DBF0900488A2C /* localename.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = localename.c; sourceTree = "<group>"; };
+		C9EA01EB174DBF0900488A2C /* localename.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = localename.lo; sourceTree = "<group>"; };
+		C9EA01EC174DBF0900488A2C /* localename.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = localename.o; sourceTree = "<group>"; };
+		C9EA01ED174DBF0900488A2C /* lock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lock.c; sourceTree = "<group>"; };
+		C9EA01EE174DBF0900488A2C /* lock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lock.h; sourceTree = "<group>"; };
+		C9EA01EF174DBF0900488A2C /* lock.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = lock.lo; sourceTree = "<group>"; };
+		C9EA01F0174DBF0900488A2C /* lock.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = lock.o; sourceTree = "<group>"; };
+		C9EA01F1174DBF0900488A2C /* log.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		C9EA01F2174DBF0900488A2C /* log.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = log.lo; sourceTree = "<group>"; };
+		C9EA01F3174DBF0900488A2C /* log.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = log.o; sourceTree = "<group>"; };
+		C9EA01F4174DBF0900488A2C /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C9EA01F5174DBF0900488A2C /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		C9EA01F6174DBF0900488A2C /* ngettext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ngettext.c; sourceTree = "<group>"; };
+		C9EA01F7174DBF0900488A2C /* ngettext.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = ngettext.lo; sourceTree = "<group>"; };
+		C9EA01F8174DBF0900488A2C /* ngettext.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ngettext.o; sourceTree = "<group>"; };
+		C9EA01F9174DBF0900488A2C /* os2compat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = os2compat.c; sourceTree = "<group>"; };
+		C9EA01FA174DBF0900488A2C /* os2compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = os2compat.h; sourceTree = "<group>"; };
+		C9EA01FB174DBF0900488A2C /* osdep.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = osdep.c; sourceTree = "<group>"; };
+		C9EA01FC174DBF0900488A2C /* osdep.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = osdep.lo; sourceTree = "<group>"; };
+		C9EA01FD174DBF0900488A2C /* osdep.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = osdep.o; sourceTree = "<group>"; };
+		C9EA01FE174DBF0900488A2C /* plural-exp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "plural-exp.c"; sourceTree = "<group>"; };
+		C9EA01FF174DBF0900488A2C /* plural-exp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "plural-exp.h"; sourceTree = "<group>"; };
+		C9EA0200174DBF0900488A2C /* plural-exp.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = "plural-exp.lo"; sourceTree = "<group>"; };
+		C9EA0201174DBF0900488A2C /* plural-exp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "plural-exp.o"; sourceTree = "<group>"; };
+		C9EA0202174DBF0900488A2C /* plural.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = plural.c; sourceTree = "<group>"; };
+		C9EA0203174DBF0900488A2C /* plural.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = plural.lo; sourceTree = "<group>"; };
+		C9EA0204174DBF0900488A2C /* plural.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = plural.o; sourceTree = "<group>"; };
+		C9EA0205174DBF0900488A2C /* plural.y */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = plural.y; sourceTree = "<group>"; };
+		C9EA0206174DBF0900488A2C /* printf-args.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "printf-args.c"; sourceTree = "<group>"; };
+		C9EA0207174DBF0900488A2C /* printf-args.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "printf-args.h"; sourceTree = "<group>"; };
+		C9EA0208174DBF0900488A2C /* printf-parse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "printf-parse.c"; sourceTree = "<group>"; };
+		C9EA0209174DBF0900488A2C /* printf-parse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "printf-parse.h"; sourceTree = "<group>"; };
+		C9EA020A174DBF0900488A2C /* printf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = printf.c; sourceTree = "<group>"; };
+		C9EA020B174DBF0900488A2C /* printf.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = printf.lo; sourceTree = "<group>"; };
+		C9EA020C174DBF0900488A2C /* printf.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = printf.o; sourceTree = "<group>"; };
+		C9EA020D174DBF0900488A2C /* README.woe32 */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.woe32; sourceTree = "<group>"; };
+		C9EA020E174DBF0900488A2C /* ref-add.sed */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ref-add.sed"; sourceTree = "<group>"; };
+		C9EA020F174DBF0900488A2C /* ref-add.sin */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ref-add.sin"; sourceTree = "<group>"; };
+		C9EA0210174DBF0900488A2C /* ref-del.sed */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ref-del.sed"; sourceTree = "<group>"; };
+		C9EA0211174DBF0900488A2C /* ref-del.sin */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ref-del.sin"; sourceTree = "<group>"; };
+		C9EA0212174DBF0900488A2C /* relocatable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = relocatable.c; sourceTree = "<group>"; };
+		C9EA0213174DBF0900488A2C /* relocatable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = relocatable.h; sourceTree = "<group>"; };
+		C9EA0214174DBF0900488A2C /* relocatable.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = relocatable.lo; sourceTree = "<group>"; };
+		C9EA0215174DBF0900488A2C /* relocatable.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = relocatable.o; sourceTree = "<group>"; };
+		C9EA0216174DBF0900488A2C /* setlocale.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = setlocale.c; sourceTree = "<group>"; };
+		C9EA0217174DBF0900488A2C /* setlocale.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = setlocale.lo; sourceTree = "<group>"; };
+		C9EA0218174DBF0900488A2C /* setlocale.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = setlocale.o; sourceTree = "<group>"; };
+		C9EA0219174DBF0900488A2C /* textdomain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = textdomain.c; sourceTree = "<group>"; };
+		C9EA021A174DBF0900488A2C /* textdomain.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = textdomain.lo; sourceTree = "<group>"; };
+		C9EA021B174DBF0900488A2C /* textdomain.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = textdomain.o; sourceTree = "<group>"; };
+		C9EA021C174DBF0900488A2C /* threadlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = threadlib.c; sourceTree = "<group>"; };
+		C9EA021D174DBF0900488A2C /* threadlib.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = threadlib.lo; sourceTree = "<group>"; };
+		C9EA021E174DBF0900488A2C /* threadlib.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = threadlib.o; sourceTree = "<group>"; };
+		C9EA021F174DBF0900488A2C /* tsearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tsearch.c; sourceTree = "<group>"; };
+		C9EA0220174DBF0900488A2C /* tsearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tsearch.h; sourceTree = "<group>"; };
+		C9EA0221174DBF0900488A2C /* vasnprintf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vasnprintf.c; sourceTree = "<group>"; };
+		C9EA0222174DBF0900488A2C /* vasnprintf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vasnprintf.h; sourceTree = "<group>"; };
+		C9EA0223174DBF0900488A2C /* vasnwprintf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vasnwprintf.h; sourceTree = "<group>"; };
+		C9EA0224174DBF0900488A2C /* verify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = verify.h; sourceTree = "<group>"; };
+		C9EA0225174DBF0900488A2C /* version.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		C9EA0226174DBF0900488A2C /* version.lo */ = {isa = PBXFileReference; lastKnownFileType = text; path = version.lo; sourceTree = "<group>"; };
+		C9EA0227174DBF0900488A2C /* version.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = version.o; sourceTree = "<group>"; };
+		C9EA0228174DBF0900488A2C /* wprintf-parse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wprintf-parse.h"; sourceTree = "<group>"; };
+		C9EA0229174DBF0900488A2C /* xsize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xsize.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C9EA019F174DBF0900488A2C = {
+			isa = PBXGroup;
+			children = (
+				C9EA01A5174DBF0900488A2C /* .DS_Store */,
+				C9EA01A6174DBF0900488A2C /* .libs */,
+				C9EA01A7174DBF0900488A2C /* bindtextdom.c */,
+				C9EA01A8174DBF0900488A2C /* bindtextdom.lo */,
+				C9EA01A9174DBF0900488A2C /* bindtextdom.o */,
+				C9EA01AA174DBF0900488A2C /* ChangeLog */,
+				C9EA01AB174DBF0900488A2C /* charset.alias */,
+				C9EA01AC174DBF0900488A2C /* config.charset */,
+				C9EA01AD174DBF0900488A2C /* COPYING.LIB */,
+				C9EA01AE174DBF0900488A2C /* dcgettext.c */,
+				C9EA01AF174DBF0900488A2C /* dcgettext.lo */,
+				C9EA01B0174DBF0900488A2C /* dcgettext.o */,
+				C9EA01B1174DBF0900488A2C /* dcigettext.c */,
+				C9EA01B2174DBF0900488A2C /* dcigettext.lo */,
+				C9EA01B3174DBF0900488A2C /* dcigettext.o */,
+				C9EA01B4174DBF0900488A2C /* dcngettext.c */,
+				C9EA01B5174DBF0900488A2C /* dcngettext.lo */,
+				C9EA01B6174DBF0900488A2C /* dcngettext.o */,
+				C9EA01B7174DBF0900488A2C /* dgettext.c */,
+				C9EA01B8174DBF0900488A2C /* dgettext.lo */,
+				C9EA01B9174DBF0900488A2C /* dgettext.o */,
+				C9EA01BA174DBF0900488A2C /* dngettext.c */,
+				C9EA01BB174DBF0900488A2C /* dngettext.lo */,
+				C9EA01BC174DBF0900488A2C /* dngettext.o */,
+				C9EA01BD174DBF0900488A2C /* eval-plural.h */,
+				C9EA01BE174DBF0900488A2C /* explodename.c */,
+				C9EA01BF174DBF0900488A2C /* explodename.lo */,
+				C9EA01C0174DBF0900488A2C /* explodename.o */,
+				C9EA01C1174DBF0900488A2C /* export.h */,
+				C9EA01C2174DBF0900488A2C /* finddomain.c */,
+				C9EA01C3174DBF0900488A2C /* finddomain.lo */,
+				C9EA01C4174DBF0900488A2C /* finddomain.o */,
+				C9EA01C5174DBF0900488A2C /* gettext.c */,
+				C9EA01C6174DBF0900488A2C /* gettext.lo */,
+				C9EA01C7174DBF0900488A2C /* gettext.o */,
+				C9EA01C8174DBF0900488A2C /* gettextP.h */,
+				C9EA01C9174DBF0900488A2C /* gmo.h */,
+				C9EA01CA174DBF0900488A2C /* hash-string.c */,
+				C9EA01CB174DBF0900488A2C /* hash-string.h */,
+				C9EA01CC174DBF0900488A2C /* hash-string.lo */,
+				C9EA01CD174DBF0900488A2C /* hash-string.o */,
+				C9EA01CE174DBF0900488A2C /* intl-compat.c */,
+				C9EA01CF174DBF0900488A2C /* intl-compat.lo */,
+				C9EA01D0174DBF0900488A2C /* intl-compat.o */,
+				C9EA01D1174DBF0900488A2C /* intl-exports.c */,
+				C9EA01D2174DBF0900488A2C /* l10nflist.c */,
+				C9EA01D3174DBF0900488A2C /* l10nflist.lo */,
+				C9EA01D4174DBF0900488A2C /* l10nflist.o */,
+				C9EA01D5174DBF0900488A2C /* langprefs.c */,
+				C9EA01D6174DBF0900488A2C /* langprefs.lo */,
+				C9EA01D7174DBF0900488A2C /* langprefs.o */,
+				C9EA01D8174DBF0900488A2C /* libgnuintl.h */,
+				C9EA01D9174DBF0900488A2C /* libgnuintl.in.h */,
+				C9EA01DA174DBF0900488A2C /* libintl.glibc */,
+				C9EA01DB174DBF0900488A2C /* libintl.h */,
+				C9EA01DC174DBF0900488A2C /* libintl.la */,
+				C9EA01DD174DBF0900488A2C /* libintl.rc */,
+				C9EA01DE174DBF0900488A2C /* loadinfo.h */,
+				C9EA01DF174DBF0900488A2C /* loadmsgcat.c */,
+				C9EA01E0174DBF0900488A2C /* loadmsgcat.lo */,
+				C9EA01E1174DBF0900488A2C /* loadmsgcat.o */,
+				C9EA01E2174DBF0900488A2C /* localcharset.c */,
+				C9EA01E3174DBF0900488A2C /* localcharset.h */,
+				C9EA01E4174DBF0900488A2C /* localcharset.lo */,
+				C9EA01E5174DBF0900488A2C /* localcharset.o */,
+				C9EA01E6174DBF0900488A2C /* locale.alias */,
+				C9EA01E7174DBF0900488A2C /* localealias.c */,
+				C9EA01E8174DBF0900488A2C /* localealias.lo */,
+				C9EA01E9174DBF0900488A2C /* localealias.o */,
+				C9EA01EA174DBF0900488A2C /* localename.c */,
+				C9EA01EB174DBF0900488A2C /* localename.lo */,
+				C9EA01EC174DBF0900488A2C /* localename.o */,
+				C9EA01ED174DBF0900488A2C /* lock.c */,
+				C9EA01EE174DBF0900488A2C /* lock.h */,
+				C9EA01EF174DBF0900488A2C /* lock.lo */,
+				C9EA01F0174DBF0900488A2C /* lock.o */,
+				C9EA01F1174DBF0900488A2C /* log.c */,
+				C9EA01F2174DBF0900488A2C /* log.lo */,
+				C9EA01F3174DBF0900488A2C /* log.o */,
+				C9EA01F4174DBF0900488A2C /* Makefile */,
+				C9EA01F5174DBF0900488A2C /* Makefile.in */,
+				C9EA01F6174DBF0900488A2C /* ngettext.c */,
+				C9EA01F7174DBF0900488A2C /* ngettext.lo */,
+				C9EA01F8174DBF0900488A2C /* ngettext.o */,
+				C9EA01F9174DBF0900488A2C /* os2compat.c */,
+				C9EA01FA174DBF0900488A2C /* os2compat.h */,
+				C9EA01FB174DBF0900488A2C /* osdep.c */,
+				C9EA01FC174DBF0900488A2C /* osdep.lo */,
+				C9EA01FD174DBF0900488A2C /* osdep.o */,
+				C9EA01FE174DBF0900488A2C /* plural-exp.c */,
+				C9EA01FF174DBF0900488A2C /* plural-exp.h */,
+				C9EA0200174DBF0900488A2C /* plural-exp.lo */,
+				C9EA0201174DBF0900488A2C /* plural-exp.o */,
+				C9EA0202174DBF0900488A2C /* plural.c */,
+				C9EA0203174DBF0900488A2C /* plural.lo */,
+				C9EA0204174DBF0900488A2C /* plural.o */,
+				C9EA0205174DBF0900488A2C /* plural.y */,
+				C9EA0206174DBF0900488A2C /* printf-args.c */,
+				C9EA0207174DBF0900488A2C /* printf-args.h */,
+				C9EA0208174DBF0900488A2C /* printf-parse.c */,
+				C9EA0209174DBF0900488A2C /* printf-parse.h */,
+				C9EA020A174DBF0900488A2C /* printf.c */,
+				C9EA020B174DBF0900488A2C /* printf.lo */,
+				C9EA020C174DBF0900488A2C /* printf.o */,
+				C9EA020D174DBF0900488A2C /* README.woe32 */,
+				C9EA020E174DBF0900488A2C /* ref-add.sed */,
+				C9EA020F174DBF0900488A2C /* ref-add.sin */,
+				C9EA0210174DBF0900488A2C /* ref-del.sed */,
+				C9EA0211174DBF0900488A2C /* ref-del.sin */,
+				C9EA0212174DBF0900488A2C /* relocatable.c */,
+				C9EA0213174DBF0900488A2C /* relocatable.h */,
+				C9EA0214174DBF0900488A2C /* relocatable.lo */,
+				C9EA0215174DBF0900488A2C /* relocatable.o */,
+				C9EA0216174DBF0900488A2C /* setlocale.c */,
+				C9EA0217174DBF0900488A2C /* setlocale.lo */,
+				C9EA0218174DBF0900488A2C /* setlocale.o */,
+				C9EA0219174DBF0900488A2C /* textdomain.c */,
+				C9EA021A174DBF0900488A2C /* textdomain.lo */,
+				C9EA021B174DBF0900488A2C /* textdomain.o */,
+				C9EA021C174DBF0900488A2C /* threadlib.c */,
+				C9EA021D174DBF0900488A2C /* threadlib.lo */,
+				C9EA021E174DBF0900488A2C /* threadlib.o */,
+				C9EA021F174DBF0900488A2C /* tsearch.c */,
+				C9EA0220174DBF0900488A2C /* tsearch.h */,
+				C9EA0221174DBF0900488A2C /* vasnprintf.c */,
+				C9EA0222174DBF0900488A2C /* vasnprintf.h */,
+				C9EA0223174DBF0900488A2C /* vasnwprintf.h */,
+				C9EA0224174DBF0900488A2C /* verify.h */,
+				C9EA0225174DBF0900488A2C /* version.c */,
+				C9EA0226174DBF0900488A2C /* version.lo */,
+				C9EA0227174DBF0900488A2C /* version.o */,
+				C9EA0228174DBF0900488A2C /* wprintf-parse.h */,
+				C9EA0229174DBF0900488A2C /* xsize.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		C9EA01A4174DBF0900488A2C /* intl */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) CFLAGS=\"$(CFLAGS)\" LDFLAGS=\"$(LDFLAGS)\"";
+			buildConfigurationList = C9EA022A174DBF0900488A2C /* Build configuration list for PBXLegacyTarget "intl" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/roxyfoxy/Desktop/xaos/src/ui/ui-drv/cocoa-ios/XaoS/thirdparty/gettext-0.18.2/gettext-runtime/intl";
+			dependencies = (
+			);
+			name = intl;
+			passBuildSettingsInEnvironment = 1;
+			productName = intl;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		C9EA01A0174DBF0900488A2C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C9EA01A3174DBF0900488A2C /* Build configuration list for PBXProject "intl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9EA019F174DBF0900488A2C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9EA01A4174DBF0900488A2C /* intl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C9EA01A1174DBF0900488A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CFLAGS = "-O3 -arch armv7 -arch armv7s -isysroot '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKS/iPhoneOS6.1.sdk'";
+				LDFLAGS = "-O3 -arch armv7 -arch armv7s";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9EA01A2174DBF0900488A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CFLAGS = "-O3 -arch armv7 -arch armv7s -isysroot '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKS/iPhoneOS6.1.sdk'";
+				LDFLAGS = "-O3 -arch armv7 -arch armv7s";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C9EA022B174DBF0900488A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+			};
+			name = Debug;
+		};
+		C9EA022C174DBF0900488A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9EA01A3174DBF0900488A2C /* Build configuration list for PBXProject "intl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EA01A1174DBF0900488A2C /* Debug */,
+				C9EA01A2174DBF0900488A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9EA022A174DBF0900488A2C /* Build configuration list for PBXLegacyTarget "intl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EA022B174DBF0900488A2C /* Debug */,
+				C9EA022C174DBF0900488A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9EA01A0174DBF0900488A2C /* Project object */;
+}

@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C93142521750ADAE0051F4CE /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		C93142531750ADAE0051F4CE /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		C93142541750ADAE0051F4CE /* autogen.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
+		C93142551750ADAE0051F4CE /* blas */ = {isa = PBXFileReference; lastKnownFileType = folder; path = blas; sourceTree = "<group>"; };
+		C93142561750ADAE0051F4CE /* block */ = {isa = PBXFileReference; lastKnownFileType = folder; path = block; sourceTree = "<group>"; };
+		C93142571750ADAE0051F4CE /* bspline */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bspline; sourceTree = "<group>"; };
+		C93142581750ADAE0051F4CE /* BUGS */ = {isa = PBXFileReference; lastKnownFileType = text; path = BUGS; sourceTree = "<group>"; };
+		C93142591750ADAE0051F4CE /* build.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = build.h; sourceTree = "<group>"; };
+		C931425A1750ADAE0051F4CE /* cblas */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cblas; sourceTree = "<group>"; };
+		C931425B1750ADAE0051F4CE /* cdf */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cdf; sourceTree = "<group>"; };
+		C931425C1750ADAE0051F4CE /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		C931425D1750ADAE0051F4CE /* cheb */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cheb; sourceTree = "<group>"; };
+		C931425E1750ADAE0051F4CE /* combination */ = {isa = PBXFileReference; lastKnownFileType = folder; path = combination; sourceTree = "<group>"; };
+		C931425F1750ADAE0051F4CE /* complex */ = {isa = PBXFileReference; lastKnownFileType = folder; path = complex; sourceTree = "<group>"; };
+		C93142601750ADAE0051F4CE /* config.guess */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		C93142611750ADAE0051F4CE /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		C93142621750ADAE0051F4CE /* config.sub */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		C93142631750ADAE0051F4CE /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		C93142641750ADAE0051F4CE /* configure.ac */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		C93142651750ADAE0051F4CE /* const */ = {isa = PBXFileReference; lastKnownFileType = folder; path = const; sourceTree = "<group>"; };
+		C93142661750ADAE0051F4CE /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		C93142671750ADAE0051F4CE /* depcomp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
+		C93142681750ADAE0051F4CE /* deriv */ = {isa = PBXFileReference; lastKnownFileType = folder; path = deriv; sourceTree = "<group>"; };
+		C93142691750ADAE0051F4CE /* dht */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dht; sourceTree = "<group>"; };
+		C931426A1750ADAE0051F4CE /* diff */ = {isa = PBXFileReference; lastKnownFileType = folder; path = diff; sourceTree = "<group>"; };
+		C931426B1750ADAE0051F4CE /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		C931426C1750ADAE0051F4CE /* eigen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = eigen; sourceTree = "<group>"; };
+		C931426D1750ADAE0051F4CE /* err */ = {isa = PBXFileReference; lastKnownFileType = folder; path = err; sourceTree = "<group>"; };
+		C931426E1750ADAE0051F4CE /* fft */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fft; sourceTree = "<group>"; };
+		C931426F1750ADAE0051F4CE /* fit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fit; sourceTree = "<group>"; };
+		C93142701750ADAE0051F4CE /* gsl */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gsl; sourceTree = "<group>"; };
+		C93142711750ADAE0051F4CE /* gsl-config.in */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "gsl-config.in"; sourceTree = "<group>"; };
+		C93142721750ADAE0051F4CE /* gsl-histogram.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gsl-histogram.c"; sourceTree = "<group>"; };
+		C93142731750ADAE0051F4CE /* gsl-randist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "gsl-randist.c"; sourceTree = "<group>"; };
+		C93142741750ADAE0051F4CE /* gsl.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = gsl.m4; sourceTree = "<group>"; };
+		C93142751750ADAE0051F4CE /* gsl.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = gsl.pc.in; sourceTree = "<group>"; };
+		C93142761750ADAE0051F4CE /* gsl.spec.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = gsl.spec.in; sourceTree = "<group>"; };
+		C93142771750ADAE0051F4CE /* gsl_inline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsl_inline.h; sourceTree = "<group>"; };
+		C93142781750ADAE0051F4CE /* gsl_machine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsl_machine.h; sourceTree = "<group>"; };
+		C93142791750ADAE0051F4CE /* gsl_math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsl_math.h; sourceTree = "<group>"; };
+		C931427A1750ADAE0051F4CE /* gsl_minmax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsl_minmax.h; sourceTree = "<group>"; };
+		C931427B1750ADAE0051F4CE /* gsl_mode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsl_mode.h; sourceTree = "<group>"; };
+		C931427C1750ADAE0051F4CE /* gsl_nan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsl_nan.h; sourceTree = "<group>"; };
+		C931427D1750ADAE0051F4CE /* gsl_pow_int.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsl_pow_int.h; sourceTree = "<group>"; };
+		C931427E1750ADAE0051F4CE /* gsl_precision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsl_precision.h; sourceTree = "<group>"; };
+		C931427F1750ADAE0051F4CE /* gsl_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsl_types.h; sourceTree = "<group>"; };
+		C93142801750ADAE0051F4CE /* gsl_version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsl_version.h; sourceTree = "<group>"; };
+		C93142811750ADAE0051F4CE /* gsl_version.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = gsl_version.h.in; sourceTree = "<group>"; };
+		C93142821750ADAE0051F4CE /* histogram */ = {isa = PBXFileReference; lastKnownFileType = folder; path = histogram; sourceTree = "<group>"; };
+		C93142831750ADAE0051F4CE /* ieee-utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ieee-utils"; sourceTree = "<group>"; };
+		C93142841750ADAE0051F4CE /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		C93142851750ADAE0051F4CE /* install-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		C93142861750ADAE0051F4CE /* integration */ = {isa = PBXFileReference; lastKnownFileType = folder; path = integration; sourceTree = "<group>"; };
+		C93142871750ADAE0051F4CE /* interpolation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = interpolation; sourceTree = "<group>"; };
+		C93142881750ADAE0051F4CE /* linalg */ = {isa = PBXFileReference; lastKnownFileType = folder; path = linalg; sourceTree = "<group>"; };
+		C93142891750ADAE0051F4CE /* ltmain.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
+		C931428A1750ADAE0051F4CE /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		C931428B1750ADAE0051F4CE /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		C931428C1750ADAE0051F4CE /* matrix */ = {isa = PBXFileReference; lastKnownFileType = folder; path = matrix; sourceTree = "<group>"; };
+		C931428D1750ADAE0051F4CE /* mdate-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "mdate-sh"; sourceTree = "<group>"; };
+		C931428E1750ADAE0051F4CE /* min */ = {isa = PBXFileReference; lastKnownFileType = folder; path = min; sourceTree = "<group>"; };
+		C931428F1750ADAE0051F4CE /* missing */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
+		C93142901750ADAE0051F4CE /* mkinstalldirs */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = mkinstalldirs; sourceTree = "<group>"; };
+		C93142911750ADAE0051F4CE /* monte */ = {isa = PBXFileReference; lastKnownFileType = folder; path = monte; sourceTree = "<group>"; };
+		C93142921750ADAE0051F4CE /* multifit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = multifit; sourceTree = "<group>"; };
+		C93142931750ADAE0051F4CE /* multimin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = multimin; sourceTree = "<group>"; };
+		C93142941750ADAE0051F4CE /* multiroots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = multiroots; sourceTree = "<group>"; };
+		C93142951750ADAE0051F4CE /* multiset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = multiset; sourceTree = "<group>"; };
+		C93142961750ADAE0051F4CE /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		C93142971750ADAE0051F4CE /* ntuple */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ntuple; sourceTree = "<group>"; };
+		C93142981750ADAE0051F4CE /* ode-initval */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ode-initval"; sourceTree = "<group>"; };
+		C93142991750ADAE0051F4CE /* ode-initval2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ode-initval2"; sourceTree = "<group>"; };
+		C931429A1750ADAE0051F4CE /* permutation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = permutation; sourceTree = "<group>"; };
+		C931429B1750ADAE0051F4CE /* pkgconfig.test */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = pkgconfig.test; sourceTree = "<group>"; };
+		C931429C1750ADAE0051F4CE /* poly */ = {isa = PBXFileReference; lastKnownFileType = folder; path = poly; sourceTree = "<group>"; };
+		C931429D1750ADAE0051F4CE /* qrng */ = {isa = PBXFileReference; lastKnownFileType = folder; path = qrng; sourceTree = "<group>"; };
+		C931429E1750ADAE0051F4CE /* randist */ = {isa = PBXFileReference; lastKnownFileType = folder; path = randist; sourceTree = "<group>"; };
+		C931429F1750ADAE0051F4CE /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		C93142A01750ADAE0051F4CE /* rng */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rng; sourceTree = "<group>"; };
+		C93142A11750ADAE0051F4CE /* roots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = roots; sourceTree = "<group>"; };
+		C93142A21750ADAE0051F4CE /* siman */ = {isa = PBXFileReference; lastKnownFileType = folder; path = siman; sourceTree = "<group>"; };
+		C93142A31750ADAE0051F4CE /* sort */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sort; sourceTree = "<group>"; };
+		C93142A41750ADAE0051F4CE /* specfunc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = specfunc; sourceTree = "<group>"; };
+		C93142A51750ADAE0051F4CE /* statistics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = statistics; sourceTree = "<group>"; };
+		C93142A61750ADAE0051F4CE /* sum */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sum; sourceTree = "<group>"; };
+		C93142A71750ADAE0051F4CE /* sys */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sys; sourceTree = "<group>"; };
+		C93142A81750ADAE0051F4CE /* templates_off.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = templates_off.h; sourceTree = "<group>"; };
+		C93142A91750ADAE0051F4CE /* templates_on.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = templates_on.h; sourceTree = "<group>"; };
+		C93142AA1750ADAE0051F4CE /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+		C93142AB1750ADAE0051F4CE /* test_gsl_histogram.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test_gsl_histogram.sh; sourceTree = "<group>"; };
+		C93142AC1750ADAE0051F4CE /* THANKS */ = {isa = PBXFileReference; lastKnownFileType = text; path = THANKS; sourceTree = "<group>"; };
+		C93142AD1750ADAE0051F4CE /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		C93142AE1750ADAE0051F4CE /* utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = utils; sourceTree = "<group>"; };
+		C93142AF1750ADAE0051F4CE /* vector */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vector; sourceTree = "<group>"; };
+		C93142B01750ADAE0051F4CE /* version.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		C93142B11750ADAE0051F4CE /* wavelet */ = {isa = PBXFileReference; lastKnownFileType = folder; path = wavelet; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C931424C1750ADAE0051F4CE = {
+			isa = PBXGroup;
+			children = (
+				C93142521750ADAE0051F4CE /* aclocal.m4 */,
+				C93142531750ADAE0051F4CE /* AUTHORS */,
+				C93142541750ADAE0051F4CE /* autogen.sh */,
+				C93142551750ADAE0051F4CE /* blas */,
+				C93142561750ADAE0051F4CE /* block */,
+				C93142571750ADAE0051F4CE /* bspline */,
+				C93142581750ADAE0051F4CE /* BUGS */,
+				C93142591750ADAE0051F4CE /* build.h */,
+				C931425A1750ADAE0051F4CE /* cblas */,
+				C931425B1750ADAE0051F4CE /* cdf */,
+				C931425C1750ADAE0051F4CE /* ChangeLog */,
+				C931425D1750ADAE0051F4CE /* cheb */,
+				C931425E1750ADAE0051F4CE /* combination */,
+				C931425F1750ADAE0051F4CE /* complex */,
+				C93142601750ADAE0051F4CE /* config.guess */,
+				C93142611750ADAE0051F4CE /* config.h.in */,
+				C93142621750ADAE0051F4CE /* config.sub */,
+				C93142631750ADAE0051F4CE /* configure */,
+				C93142641750ADAE0051F4CE /* configure.ac */,
+				C93142651750ADAE0051F4CE /* const */,
+				C93142661750ADAE0051F4CE /* COPYING */,
+				C93142671750ADAE0051F4CE /* depcomp */,
+				C93142681750ADAE0051F4CE /* deriv */,
+				C93142691750ADAE0051F4CE /* dht */,
+				C931426A1750ADAE0051F4CE /* diff */,
+				C931426B1750ADAE0051F4CE /* doc */,
+				C931426C1750ADAE0051F4CE /* eigen */,
+				C931426D1750ADAE0051F4CE /* err */,
+				C931426E1750ADAE0051F4CE /* fft */,
+				C931426F1750ADAE0051F4CE /* fit */,
+				C93142701750ADAE0051F4CE /* gsl */,
+				C93142711750ADAE0051F4CE /* gsl-config.in */,
+				C93142721750ADAE0051F4CE /* gsl-histogram.c */,
+				C93142731750ADAE0051F4CE /* gsl-randist.c */,
+				C93142741750ADAE0051F4CE /* gsl.m4 */,
+				C93142751750ADAE0051F4CE /* gsl.pc.in */,
+				C93142761750ADAE0051F4CE /* gsl.spec.in */,
+				C93142771750ADAE0051F4CE /* gsl_inline.h */,
+				C93142781750ADAE0051F4CE /* gsl_machine.h */,
+				C93142791750ADAE0051F4CE /* gsl_math.h */,
+				C931427A1750ADAE0051F4CE /* gsl_minmax.h */,
+				C931427B1750ADAE0051F4CE /* gsl_mode.h */,
+				C931427C1750ADAE0051F4CE /* gsl_nan.h */,
+				C931427D1750ADAE0051F4CE /* gsl_pow_int.h */,
+				C931427E1750ADAE0051F4CE /* gsl_precision.h */,
+				C931427F1750ADAE0051F4CE /* gsl_types.h */,
+				C93142801750ADAE0051F4CE /* gsl_version.h */,
+				C93142811750ADAE0051F4CE /* gsl_version.h.in */,
+				C93142821750ADAE0051F4CE /* histogram */,
+				C93142831750ADAE0051F4CE /* ieee-utils */,
+				C93142841750ADAE0051F4CE /* INSTALL */,
+				C93142851750ADAE0051F4CE /* install-sh */,
+				C93142861750ADAE0051F4CE /* integration */,
+				C93142871750ADAE0051F4CE /* interpolation */,
+				C93142881750ADAE0051F4CE /* linalg */,
+				C93142891750ADAE0051F4CE /* ltmain.sh */,
+				C931428A1750ADAE0051F4CE /* Makefile.am */,
+				C931428B1750ADAE0051F4CE /* Makefile.in */,
+				C931428C1750ADAE0051F4CE /* matrix */,
+				C931428D1750ADAE0051F4CE /* mdate-sh */,
+				C931428E1750ADAE0051F4CE /* min */,
+				C931428F1750ADAE0051F4CE /* missing */,
+				C93142901750ADAE0051F4CE /* mkinstalldirs */,
+				C93142911750ADAE0051F4CE /* monte */,
+				C93142921750ADAE0051F4CE /* multifit */,
+				C93142931750ADAE0051F4CE /* multimin */,
+				C93142941750ADAE0051F4CE /* multiroots */,
+				C93142951750ADAE0051F4CE /* multiset */,
+				C93142961750ADAE0051F4CE /* NEWS */,
+				C93142971750ADAE0051F4CE /* ntuple */,
+				C93142981750ADAE0051F4CE /* ode-initval */,
+				C93142991750ADAE0051F4CE /* ode-initval2 */,
+				C931429A1750ADAE0051F4CE /* permutation */,
+				C931429B1750ADAE0051F4CE /* pkgconfig.test */,
+				C931429C1750ADAE0051F4CE /* poly */,
+				C931429D1750ADAE0051F4CE /* qrng */,
+				C931429E1750ADAE0051F4CE /* randist */,
+				C931429F1750ADAE0051F4CE /* README */,
+				C93142A01750ADAE0051F4CE /* rng */,
+				C93142A11750ADAE0051F4CE /* roots */,
+				C93142A21750ADAE0051F4CE /* siman */,
+				C93142A31750ADAE0051F4CE /* sort */,
+				C93142A41750ADAE0051F4CE /* specfunc */,
+				C93142A51750ADAE0051F4CE /* statistics */,
+				C93142A61750ADAE0051F4CE /* sum */,
+				C93142A71750ADAE0051F4CE /* sys */,
+				C93142A81750ADAE0051F4CE /* templates_off.h */,
+				C93142A91750ADAE0051F4CE /* templates_on.h */,
+				C93142AA1750ADAE0051F4CE /* test */,
+				C93142AB1750ADAE0051F4CE /* test_gsl_histogram.sh */,
+				C93142AC1750ADAE0051F4CE /* THANKS */,
+				C93142AD1750ADAE0051F4CE /* TODO */,
+				C93142AE1750ADAE0051F4CE /* utils */,
+				C93142AF1750ADAE0051F4CE /* vector */,
+				C93142B01750ADAE0051F4CE /* version.c */,
+				C93142B11750ADAE0051F4CE /* wavelet */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		C93142511750ADAE0051F4CE /* gsl-1.15 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) CFLAGS=\"$(CFLAGS)\" LDFLAGS=\"$(LDFLAGS)\"";
+			buildConfigurationList = C93142B21750ADAE0051F4CE /* Build configuration list for PBXLegacyTarget "gsl-1.15" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/roxyfoxy/Desktop/xaos/src/ui/ui-drv/cocoa-ios/XaoS/thirdparty/gsl-1.15";
+			dependencies = (
+			);
+			name = "gsl-1.15";
+			passBuildSettingsInEnvironment = 1;
+			productName = "gsl-1.15";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		C931424D1750ADAE0051F4CE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C93142501750ADAE0051F4CE /* Build configuration list for PBXProject "gsl-1.15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C931424C1750ADAE0051F4CE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C93142511750ADAE0051F4CE /* gsl-1.15 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C931424E1750ADAE0051F4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CFLAGS = "-O3 -arch armv7 -arch armv7s -isysroot '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKS/iPhoneOS6.1.sdk'";
+				LDFLAGS = "-O3 -arch armv7 -arch armv7s";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C931424F1750ADAE0051F4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CFLAGS = "-O3 -arch armv7 -arch armv7s -isysroot '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKS/iPhoneOS6.1.sdk'";
+				LDFLAGS = "-O3 -arch armv7 -arch armv7s";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C93142B31750ADAE0051F4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+			};
+			name = Debug;
+		};
+		C93142B41750ADAE0051F4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C93142501750ADAE0051F4CE /* Build configuration list for PBXProject "gsl-1.15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C931424E1750ADAE0051F4CE /* Debug */,
+				C931424F1750ADAE0051F4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93142B21750ADAE0051F4CE /* Build configuration list for PBXLegacyTarget "gsl-1.15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93142B31750ADAE0051F4CE /* Debug */,
+				C93142B41750ADAE0051F4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C931424D1750ADAE0051F4CE /* Project object */;
+}
